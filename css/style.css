@@ -142,46 +142,49 @@ a:hover {
     text-decoration: underline;
 }
 
+#mainContent section {
+    position: relative;
+    margin: 0 0 30px;
+    float: right;
+    width: 100%;
+}
+
+h2, h3 {
+    position: absolute;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
 #employment h2 {
-    -webkit-transform: rotate(-90deg) translate(340px, -430px);
-    -moz-transform: rotate(-90deg) translate(340px, -430px);
-    -o-transform: rotate(-90deg) translate(340px, -430px);
-    transform: rotate(-90deg) translate(340px, -430px);
+    width: 120px;
+    margin: 25px 0 0 -55px;
 }
 
 #recentProjects h2 {
-    -webkit-transform: rotate(-90deg) translate(315px, -430px);
-    -moz-transform: rotate(-90deg) translate(315px, -430px);
-    -o-transform: rotate(-90deg) translate(315px, -430px);
-    transform: rotate(-90deg) translate(315px, -430px);
+    width: 120px;
+    margin: 50px 0 0 -55px;
 }
 
 #olderProjects h2 {
-    -webkit-transform: rotate(-90deg) translate(325px, -430px);
-    -moz-transform: rotate(-90deg) translate(325px, -430px);
-    -o-transform: rotate(-90deg) translate(325px, -430px);
-    transform: rotate(-90deg) translate(325px, -430px);
+    width: 120px;
+    margin: 36px 0 0 -55px;
 }
 
+
 #education h2 {
-    -webkit-transform: rotate(-90deg) translate(360px, -430px);
-    -moz-transform: rotate(-90deg) translate(360px, -430px);
-    -o-transform: rotate(-90deg) translate(360px, -430px);
-    transform: rotate(-90deg) translate(360px, -430px);
+    width: 120px;
+    margin: 5px 0 0 -55px;
 }
 
 #awards h2 {
-    -webkit-transform: rotate(-90deg) translate(380px, -430px);
-    -moz-transform: rotate(-90deg) translate(380px, -430px);
-    -o-transform: rotate(-90deg) translate(380px, -430px);
-    transform: rotate(-90deg) translate(380px, -430px);
+    width: 120px;
+    margin: -13px 0 0 -55px;
 }
 
 #skills h3 {
-    -webkit-transform: rotate(-90deg) translate(75px, -150px);
-    -moz-transform: rotate(-90deg) translate(75px, -150px);
-    -o-transform: rotate(-90deg) translate(75px, -150px);
-    transform: rotate(-90deg) translate(75px, -150px);
+    margin: 15px 0 0 -50px;
 }
 
 .bold {
