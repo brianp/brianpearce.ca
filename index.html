@@ -13,6 +13,10 @@
     
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="js/jquery.serialScroll-1.2.2-min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
 
     <!-- Make IE more standards compliant -->
     <!--[if (gte IE 6)&(lte IE 8)]>
@@ -26,15 +30,13 @@
 
     <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
     
-    <!--[if lt IE 8]>
+    <!--[if lte IE 7]>
         <link href="css/ie7.css" media="screen, projection" rel="stylesheet" type="text/css">
     <![endif]-->
     
-    <script type="text/javascript">
-    $(function() {
-        $('a[rel*=lightbox]').lightBox(); // Select all links that contains lightbox in the attribute rel
-    });
-    </script>
+    <!--[if IE]>
+        <link href="css/ie.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <![endif]-->
     
 </head>
 
@@ -58,52 +60,64 @@
         </article>
     </section>
     
-    <section id="recentProjects">
-    <h2>Recent Projects</h2>
-        <article>
-            <div class="locale">Automodealer<br /><a href="http://www.automodealer.ca">www.automodealer.ca</a><br /><span class="bold">(Under Development)</span> 2010</div>
-            <div class="desc">Created concept, implemented both front end HTML5/CSS and Ruby on Rails back end. Developed secure payment management system.</div>
-        </article>
-        
-        <article>
-            <div class="locale">Bob Blumenthal Autowholesale<br /><a href="http://www.autowholesale.ca">www.autowholesale.ca</a><br />2010</div>
-            <div class="desc">Designed and developed front end HTML5/CSS, custom product management &amp; CMS system with Ruby on Rails.</div>
-        </article>
-        
-        <article>
-            <div class="locale">Loco Express<br /><a href="http://www.locoexpress.ca">www.locoexpress.ca</a><br />2010</div>
-            <div class="desc">Developed HTML5/CSS templates from provided Photoshop design. Integrated into Wordpress CMS.</div>
-        </article>
-        
-        <article>
-            <div class="locale">Camp High Road<br /><a href="http://www.camphighroad.org">www.camphighroad.org</a><br />2010</div>
-            <div class="desc">Developed and integrated front end HTML5/CSS from provided Photoshop design into client ready Wordpress CMS.</div>
-        </article>
-    </section>
     
-    <section id="olderProjects">
-    <h2>Older Projects</h2>
-        <article>
-            <div class="locale">Hand That Feeds<br /><a href="http://www.handthatfeeds.com/">www.handthatfeeds.com</a><br />2009</div>
-            <div class="desc">Developed XHTML/CSS from provided Photoshop template. Integrated into Wordpress CMS.</div>
-        </article>
+    <div id="slider">
+        <ul class="navigation">
+            <li><a href="#recentProjects"><img src="images/arrowup.jpg" /></a></li>
+            <li><a href="#olderProjects"><img src="images/arrowdown.jpg" /></a></li>
+        </ul>
         
-        <article>
-            <div class="locale">Terra Consultants<br /><a href="http://www.terraconsultants.ca/">www.terraconsultants.ca</a><br />2008</div>
-            <div class="desc">Designed Photoshop layout and developed front end XHTML/CSS for static page website.</div>
-        </article>
-        
-        <article>
-            <div class="locale">Halifax Mac Store<br /><a href="http://www.halifaxmacstore.ca/">www.halifaxmacstore.ca</a><br />2007</div>
-            <div class="desc">Designed Photoshop layout and developed front end XHTML/CSS for static page website.</div>
-        </article>
-        
-        <article>
-            <div class="locale">The Hub<br /><a rel="lightbox" title="The Hub" href="images/theHub.jpg">Screenshot</a><br />2006</div>
-            <div class="desc">Developed Photoshop layout &amp; front end HTML/CSS to spec for static page website within 2.5 hour timeline to receive Gold Medal in Skills Canada Competition.</div>
-        </article>
-    </section>
-    
+        <div class="scroll">
+            <div class="scrollContainer">
+                <section class="panel" id="recentProjects">
+                <h2>Recent Projects</h2>
+                    <article>
+                        <div class="locale">Automodealer<br /><a href="http://www.automodealer.ca">www.automodealer.ca</a><br /><span class="bold">(Under Development)</span> 2010</div>
+                        <div class="desc">Created concept, implemented both front end HTML5/CSS and Ruby on Rails back end. Developed secure payment management system.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">Bob Blumenthal Autowholesale<br /><a href="http://www.autowholesale.ca">www.autowholesale.ca</a><br />2010</div>
+                        <div class="desc">Designed and developed front end HTML5/CSS, custom product management &amp; CMS system with Ruby on Rails.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">Loco Express<br /><a href="http://www.locoexpress.ca">www.locoexpress.ca</a><br />2010</div>
+                        <div class="desc">Developed HTML5/CSS templates from provided Photoshop design. Integrated into Wordpress CMS.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">Camp High Road<br /><a href="http://www.camphighroad.org">www.camphighroad.org</a><br />2010</div>
+                        <div class="desc">Developed and integrated front end HTML5/CSS from provided Photoshop design into client ready Wordpress CMS.</div>
+                    </article>
+                </section>
+
+                <section class="panel" id="olderProjects">
+                <h2>Older Projects</h2>
+                    <article>
+                        <div class="locale">Hand That Feeds<br /><a href="http://www.handthatfeeds.com/">www.handthatfeeds.com</a><br />2009</div>
+                        <div class="desc">Developed XHTML/CSS from provided Photoshop template. Integrated into Wordpress CMS.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">Terra Consultants<br /><a href="http://www.terraconsultants.ca/">www.terraconsultants.ca</a><br />2008</div>
+                        <div class="desc">Designed Photoshop layout and developed front end XHTML/CSS for static page website.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">Halifax Mac Store<br /><a href="http://www.halifaxmacstore.ca/">www.halifaxmacstore.ca</a><br />2007</div>
+                        <div class="desc">Designed Photoshop layout and developed front end XHTML/CSS for static page website.</div>
+                    </article>
+
+                    <article>
+                        <div class="locale">The Hub<br /><a rel="lightbox" title="The Hub" href="images/theHub.jpg">Screenshot</a><br />2006</div>
+                        <div class="desc">Developed Photoshop layout &amp; front end HTML/CSS to spec for static page website within 2.5 hour timeline to receive Gold Medal in Skills Canada Competition.</div>
+                    </article>
+                </section>
+            </div>
+        </div>
+    </div>
+
     <section id="education">
     <h2>Education</h2>
         <article>
