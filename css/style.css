@@ -106,7 +106,8 @@ article:after {
     color: #0074AF;
 }
 
-#recentProjects .locale {
+#recentProjects .locale,
+#olderProjects .locale {
     color: #00AA78;
 }
 
@@ -153,6 +154,13 @@ a:hover {
     -moz-transform: rotate(-90deg) translate(315px, -430px);
     -o-transform: rotate(-90deg) translate(315px, -430px);
     transform: rotate(-90deg) translate(315px, -430px);
+}
+
+#olderProjects h2 {
+    -webkit-transform: rotate(-90deg) translate(325px, -430px);
+    -moz-transform: rotate(-90deg) translate(325px, -430px);
+    -o-transform: rotate(-90deg) translate(325px, -430px);
+    transform: rotate(-90deg) translate(325px, -430px);
 }
 
 #education h2 {
