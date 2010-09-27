@@ -325,3 +325,85 @@ h2, h3 {
     top: 190px;
     width: 32px;
 }
+
+@media screen and (max-width: 480px) {
+
+    #email {
+        top: 190px;
+        left: 40px;
+        font-size: 190%;
+    }
+
+    #quote {
+        position: absolute;
+        top: 230px;
+        left: 0;
+        width: 100%;
+    }
+    
+    #quote span {
+        font-size: 220%;
+        text-indent: 10px;
+    }
+    
+    #mainContent {
+        width: 100%;
+        margin: 180px 0 0 0;
+    }
+    
+    #mainContent section {
+        margin: 0 0 30px;
+        width: 100%;
+    }
+    
+    #skills {
+        margin: 0 0 0 5px;
+        width: 100%;
+        float: left;
+    }
+    
+    #slider .navigation {
+        height: 0;
+        visibility: hidden;
+        display: none;
+    }
+    
+    #slider {
+      width: 100%;
+      margin: 30px 0 0 0;
+      position: relative;
+      float:left;
+    }
+
+    .scroll {
+      height: auto;
+      overflow: auto;
+      position: relative; /* fix for IE to respect overflow */
+      background: none;
+      margin: -60px 0 0 0;
+    }
+
+    #awards article {
+        margin-left: 30px;
+    }
+
+    #skills {
+        margin: 0 0 0 40px;
+        width: 100%%;
+    }
+
+    #skills ul li {
+        display: inline;
+    }
+    
+    #skills ul {
+        width: 80%;
+    }
+
+    article {
+        width: 100%;
+        margin: 0 0 10px 0;
+        display: block;
+    }
+
+}
