@@ -332,33 +332,30 @@ h2, h3 {
         top: 190px;
         left: 40px;
         font-size: 190%;
+        width: 400px;
     }
 
     #quote {
         position: absolute;
         top: 230px;
         left: 0;
-        width: 100%;
+        width: 480px;
     }
     
     #quote span {
         font-size: 220%;
         text-indent: 10px;
+        padding: 5px;
     }
     
     #mainContent {
-        width: 100%;
-        margin: 180px 0 0 0;
+        width: 473px;
+        margin: 140px 0 0 6px;
     }
-    
-    #mainContent section {
-        margin: 0 0 30px;
-        width: 100%;
-    }
-    
+     
     #skills {
         margin: 0 0 0 5px;
-        width: 100%;
+        width: 480px;
         float: left;
     }
     
@@ -385,6 +382,8 @@ h2, h3 {
 
     #awards article {
         margin-left: 30px;
+        
+        font-size: 80%;
     }
 
     #skills {
@@ -397,13 +396,13 @@ h2, h3 {
     }
     
     #skills ul {
-        width: 80%;
+        width: 400px;
+        font-size: 80%;
     }
-
-    article {
-        width: 100%;
-        margin: 0 0 10px 0;
-        display: block;
+    
+    #skills ul,
+    #mainContent,
+        #awards article {
+                font-size: 110%;
     }
-
 }
