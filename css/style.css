@@ -25,6 +25,20 @@ h1 span:last-child   {
 
 #email {
     position: absolute;
+    top: 95px;
+    left: 410px;
+    font-size: 340%;
+    text-indent: 10px;
+    font-family: Optima, Arial;
+    line-height: 1.3em;
+}
+
+#website a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+#website {
+    position: absolute;
     top: 139px;
     left: 350px;
     font-size: 340%;
