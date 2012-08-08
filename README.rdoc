@@ -1,0 +1,5 @@
+BrianPearce.ca
+
+Simple static resume site.
+
+Maybe I should make a copy of the resume in the readme.
