@@ -1,40 +1,39 @@
 body {
-    font-size: 62.5%; /* base of 10px */
-    color: #000;
+  font-size: 62.5%; /* base of 10px */
+  color: #000;
 }
 
 h1, h2, h3 {
-    font-family: HelveticaNeue,'Helvetica Neue',Helvetic,Arial,Georgia,Sans-serif;
+  font-family: HelveticaNeue,'Helvetica Neue',Helvetic,Arial,Georgia,Sans-serif;
 }
 
 h1 span:first-child   {
-    display: block;
-    width: 430px;
-    font-size: 1450%;
-    line-height: 0.8em;
+  display: block;
+  width: 430px;
+  font-size: 1450%;
+  line-height: 0.8em;
   letter-spacing: 0.07em;
 }
 
 h1 span:last-child   {
-    margin-left: 3px;
-    display: block;
-    width: 430px;
-    font-size: 1050%;
-    line-height: 0.3em;
-    color: #A6AAA7;
   margin-top: 6px;
+  margin-left: 3px;
+  display: block;
+  width: 430px;
+  font-size: 1050%;
+  line-height: 0.3em;
+  color: #A6AAA7;
   letter-spacing: 0.08em;
 }
 
 #email {
-    position: absolute;
-    top: 95px;
-    left: 410px;
-    font-size: 340%;
-    text-indent: 10px;
-    font-family: Optima, Arial;
-    line-height: 1.3em;
+  position: absolute;
+  top: 95px;
   left: 460.5px;
+  font-size: 340%;
+  text-indent: 10px;
+  font-family: Optima, Arial;
+  line-height: 1.3em;
 }
 
 #website a:link, a:visited, a:hover, a:active {
@@ -42,386 +41,252 @@ h1 span:last-child   {
 }
 
 #website {
-    position: absolute;
-    top: 139px;
-    left: 350px;
-    font-size: 340%;
-    text-indent: 10px;
-    font-family: Optima, Arial;
-    line-height: 1.3em;
+  position: absolute;
+  top: 139px;
   left: 400px;
+  font-size: 340%;
+  text-indent: 10px;
+  font-family: Optima, Arial;
+  line-height: 1.3em;
 }
 
 .dot {
-    color: #ff0000;
-    margin-left:15px
+  color: #ff0000;
+  margin-left:15px
 }
 
 .dot:after {
-    content: "\2022";
-    margin-right:15px;
+  content: "\2022";
+  margin-right:15px;
 }
 
 #quote {
-    position: absolute;
-    top: 190px;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 190px;
+  left: 0;
+  width: 100%;
 }
 
 #quote span {
-    display:block;
-    margin-left: 45px;
-    background: #A6AAA7;
-    font-size: 320%;
-    text-indent: 10px;
-    color: #ffffff;
-    font-family: 'Hoefler Text', 'Times New Roman', Times;
-    line-height: 1.3em;
+  display:block;
+  margin-left: 45px;
+  background: #A6AAA7;
+  font-size: 320%;
+  text-indent: 10px;
+  color: #ffffff;
+  font-family: 'Hoefler Text', 'Times New Roman', Times;
+  line-height: 1.3em;
 }
 
 #mainContent {
-    float: left;
-    margin: 100px 0 0 6px;
-/*    padding-left: 6px;*/
-    width: 70%;
+  float: left;
+  margin: 100px 0 0 6px;
+  width: 70%;
 }
 
 #skills {
-    float: right;
-    margin: 100px 6px 0 0;
-/*    padding-right: 6px;*/
-    width: 20%;
+  float: right;
+  margin: 100px 6px 0 0;
+  width: 20%;
 }
 
 article {
-    width: 90%;
-    margin: 0 0 10px 0;
-    display: block;
+  width: 90%;
+  margin: 0 0 10px 0;
+  display: block;
 }
 
 article,
 aside ul {
-    font-family: Optima, Arial;
-    font-size: 150%;
+  font-family: Optima, Arial;
+  font-size: 150%;
 }
 
 article:after {
-    content: ".";
-    display: block;
-    height: 0;
-    clear: both;
-    visibility: hidden;
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
 }
 
 .locale {
-    width: 49%;
-    margin-right: 1%;
-    float: left;
-    text-align: right;
+  width: 49%;
+  margin-right: 1%;
+  float: left;
+  text-align: right;
 }
 
 #employment .locale {
-    color: #0074AF;
+  color: #0074AF;
 }
 
 #recentProjects .locale,
 #olderProjects .locale {
-    color: #00AA78;
+  color: #00AA78;
 }
 
 #education .locale {
-    color: #58AA00;
+  color: #58AA00;
 }
 
 #awards span {
-    color: #FF4A00;
+  color: #FF4A00;
 }
 
 .desc {
-    text-align: left;
-    width: 49%;
-    margin-left: 1%;
-    float: right;
+  text-align: left;
+  width: 49%;
+  margin-left: 1%;
+  float: right;
 }
 
 #awards article {
-    margin-left: 270px;
+  margin-left: 270px;
 }
 
 h2, h3 {
-    font-size: 150%;
+  font-size: 150%;
 }
 
 a:link,
 a:visited,
 a:active,
 a:hover {
-    color: #1E90FF;
-    text-decoration: underline;
+  color: #1E90FF;
+  text-decoration: underline;
 }
 
 #mainContent section {
-    position: relative;
-    margin: 0 0 30px;
-    float: right;
-    width: 100%;
+  position: relative;
+  margin: 0 0 30px;
+  float: right;
+  width: 100%;
 }
 
 h2, h3 {
-    position: absolute;
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg);
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 #employment h2 {
-    width: 120px;
-    margin: 25px 0 0 -55px;
+  width: 120px;
+  margin: 25px 0 0 -55px;
 }
 
 #recentProjects h2 {
-    width: 120px;
-    margin: 50px 0 0 -55px;
+  width: 120px;
+  margin: 50px 0 0 -55px;
 }
 
 #olderProjects h2 {
-    width: 120px;
-    margin: 36px 0 0 -55px;
+  width: 120px;
+  margin: 36px 0 0 -55px;
 }
 
-
 #education h2 {
-    width: 120px;
-    margin: 5px 0 0 -55px;
+  width: 120px;
+  margin: 5px 0 0 -55px;
 }
 
 #awards h2 {
-    width: 120px;
-    margin: -13px 0 0 -55px;
+  width: 120px;
+  margin: -13px 0 0 -55px;
 }
 
 #skills h3 {
-    margin: 15px 0 0 -50px;
+  margin: 15px 0 0 -50px;
 }
 
 .bold {
-    font-weight: bold;
-}
-
-/* Lightbox */
-
-#jquery-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 90;
-    width: 100%;
-    height: 500px;
-}
-#jquery-lightbox {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    text-align: center;
-    line-height: 0;
-}
-#jquery-lightbox a img { border: none; }
-#lightbox-container-image-box {
-    position: relative;
-    background-color: #fff;
-    width: 250px;
-    height: 250px;
-    margin: 0 auto;
-}
-#lightbox-container-image { padding: 10px; }
-#lightbox-loading {
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    height: 25%;
-    width: 100%;
-    text-align: center;
-    line-height: 0;
-}
-#lightbox-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 10;
-}
-#lightbox-container-image-box > #lightbox-nav { left: 0; }
-#lightbox-nav a { outline: none;}
-#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
-    width: 49%;
-    height: 100%;
-    zoom: 1;
-    display: block;
-}
-#lightbox-nav-btnPrev { 
-    left: 0; 
-    float: left;
-}
-#lightbox-nav-btnNext { 
-    right: 0; 
-    float: right;
-}
-#lightbox-container-image-data-box {
-    font: 10px Verdana, Helvetica, sans-serif;
-    background-color: #fff;
-    margin: 0 auto;
-    line-height: 1.4em;
-    overflow: auto;
-    width: 100%;
-    padding: 0 10px 0;
-}
-#lightbox-container-image-data {
-    padding: 0 10px; 
-    color: #666; 
-}
-#lightbox-container-image-data #lightbox-image-details { 
-    width: 70%; 
-    float: left; 
-    text-align: left; 
-}    
-#lightbox-image-details-caption { font-weight: bold; }
-#lightbox-image-details-currentNumber {
-    display: block; 
-    clear: left; 
-    padding-bottom: 1.0em;    
-}            
-#lightbox-secNav-btnClose {
-    width: 66px; 
-    float: right;
-    padding-bottom: 0.7em;   
-}
-
-/* Slider Effect */
-#slider {
-  width: 100%;
-  margin: 0 0 30px 0;
-  position: relative;
-}
-
-.scroll {
-  height: 260px;
-  overflow: auto;
-  position: relative; /* fix for IE to respect overflow */
-  clear: left;
-  background: #FFFFFF url(images/content_pane-gradient.gif) repeat-x scroll left bottom;
-  z-index: 1;
-  margin: -60px 0 0 0;
-}
-
-.scrollContainer div.panel {
-  padding: 20px;
-  height: 210px;
-  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
-}
-
-.scrollButtons {
-  position: absolute;
-  top: 150px;
-  cursor: pointer;
-}
-
-.scrollButtons.left {
-  left: -20px;
-}
-
-.scrollButtons.right {
-  right: -20px;
-}
-
-#slider .navigation {
-    position: relative;
-    z-index: 2;
-    top: 190px;
-    width: 32px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 480px) {
+  #email {
+    top: 190px;
+    left: 75px;
+    font-size: 190%;
+    width: 400px;
+  }
 
-    #email {
-        top: 190px;
-        left: 40px;
-        font-size: 190%;
-        width: 400px;
-    }
+  #website {
+    top: 220px;
+    left: 40px;
+    font-size: 190%;
+    width: 400px;
+  }
 
-    #quote {
-        position: absolute;
-        top: 230px;
-        left: 0;
-        width: 480px;
-    }
-    
-    #quote span {
-        font-size: 220%;
-        text-indent: 10px;
-        padding: 5px;
-    }
-    
-    #mainContent {
-        width: 473px;
-        margin: 140px 0 0 6px;
-    }
-     
-    #skills {
-        margin: 0 0 0 5px;
-        width: 480px;
-        float: left;
-    }
-    
-    #slider .navigation {
-        height: 0;
-        visibility: hidden;
-        display: none;
-    }
-    
-    #slider {
-      width: 100%;
-      margin: 30px 0 0 0;
-      position: relative;
-      float:left;
-    }
+  #quote {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    width: 480px;
+  }
 
-    .scroll {
-      height: auto;
-      overflow: auto;
-      position: relative; /* fix for IE to respect overflow */
-      background: none;
-      margin: -60px 0 0 0;
-    }
+  #quote span {
+    font-size: 220%;
+    text-indent: 10px;
+    padding: 5px;
+  }
 
-    #awards article {
-        margin-left: 30px;
-        
-        font-size: 80%;
-    }
+  #mainContent {
+    width: 473px;
+    margin: 140px 0 0 6px;
+  }
 
-    #skills {
-        margin: 0 0 0 40px;
-        width: 100%%;
-    }
+  #skills {
+    margin: 0 0 0 5px;
+    width: 480px;
+    float: left;
+  }
 
-    #skills ul li {
-        display: inline;
-    }
-    
-    #skills ul {
-        width: 400px;
-        font-size: 80%;
-    }
-    
-    #skills ul,
-    #mainContent,
-        #awards article {
-                font-size: 110%;
-    }
+  #slider .navigation {
+    height: 0;
+    visibility: hidden;
+    display: none;
+  }
+
+  #slider {
+    width: 100%;
+    margin: 30px 0 0 0;
+    position: relative;
+    float:left;
+  }
+
+  .scroll {
+    height: auto;
+    overflow: auto;
+    position: relative; /* fix for IE to respect overflow */
+    background: none;
+    margin: -60px 0 0 0;
+  }
+
+  #awards article {
+    margin-left: 30px;
+    font-size: 80%;
+  }
+
+  #skills {
+    margin: 0 0 0 40px;
+    width: 100%%;
+  }
+
+  #skills ul li {
+    display: inline;
+  }
+
+  #skills ul {
+    width: 400px;
+    font-size: 80%;
+  }
+
+  #skills ul,
+  #mainContent,
+  #awards article {
+    font-size: 110%;
+  }
 }
