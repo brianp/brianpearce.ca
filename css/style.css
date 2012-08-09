@@ -12,6 +12,7 @@ h1 span:first-child   {
     width: 430px;
     font-size: 1450%;
     line-height: 0.8em;
+  letter-spacing: 0.07em;
 }
 
 h1 span:last-child   {
@@ -21,6 +22,8 @@ h1 span:last-child   {
     font-size: 1050%;
     line-height: 0.3em;
     color: #A6AAA7;
+  margin-top: 6px;
+  letter-spacing: 0.08em;
 }
 
 #email {
@@ -31,6 +34,7 @@ h1 span:last-child   {
     text-indent: 10px;
     font-family: Optima, Arial;
     line-height: 1.3em;
+  left: 460.5px;
 }
 
 #website a:link, a:visited, a:hover, a:active {
@@ -45,6 +49,7 @@ h1 span:last-child   {
     text-indent: 10px;
     font-family: Optima, Arial;
     line-height: 1.3em;
+  left: 400px;
 }
 
 .dot {
